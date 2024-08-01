@@ -1,0 +1,10 @@
+#Objetivo: Aprender a trabajar con cadenas de caracteres.
+#Instrucciones: Escribe una función que tome una cadena de texto y realice las siguientes operaciones:
+
+def procesar_cadena(cadena, letra_original, letra_nueva):
+    cadena_minuscula = cadena.lower()
+    cadena_reemplazada = cadena_minuscula.replace(letra_original.lower(), letra_nueva.lower())
+    lista_palabras = cadena_reemplazada.split()
+    print("Cadena modificada:", cadena_reemplazada)
+    print("Lista de palabras:", lista_palabras)
+

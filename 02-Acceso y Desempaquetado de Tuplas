@@ -1,0 +1,16 @@
+#Objetivo: Aprender a trabajar con tuplas.
+#Instrucciones: Dada una tupla de números (10, 20, 30, 40, 50), realiza las siguientes tareas:
+
+mi_tupla = (10, 20, 30, 40, 50)
+tercer_elemento = mi_tupla[2]
+print("El tercer elemento es:", tercer_elemento)
+a, b, c, d, e = mi_tupla
+print("a =", a)  # Imprime a = 10
+print("b =", b)  # Imprime b = 20
+print("c =", c)  # Imprime c = 30
+print("d =", d)  # Imprime d = 40
+print("e =", e)  # Imprime e = 50
+nueva_tupla = mi_tupla[:3]
+print("La nueva tupla con los primeros tres elementos es:", nueva_tupla)
+
+
